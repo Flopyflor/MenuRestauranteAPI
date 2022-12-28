@@ -6,6 +6,8 @@ GET: /menu
 
 GET: /plato/{id}
 
+GET: /menu/celiaco
+
 POST: /agregar
 el plato en el request body
 

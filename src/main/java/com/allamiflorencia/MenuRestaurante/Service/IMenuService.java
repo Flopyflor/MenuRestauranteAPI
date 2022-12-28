@@ -16,4 +16,5 @@ public interface IMenuService {
     public List<Plato> getMenu();
     public Plato getPlato(Long id);
     public Plato deletePlato(Long id);
+    public List<Plato> getMenuCeliaco();
 }

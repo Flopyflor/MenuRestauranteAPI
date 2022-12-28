@@ -24,4 +24,5 @@ public class Plato {
     private String nombre;
     private String descripcion;
     private int precio;
+    private boolean apto_celiacos;
 }

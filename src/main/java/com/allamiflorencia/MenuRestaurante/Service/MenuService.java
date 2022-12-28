@@ -41,4 +41,9 @@ public class MenuService implements IMenuService{
         repo.delete(plato);
         return plato;
     }
+    
+    @Override
+    public List<Plato> getMenuCeliaco(){
+        return repo.findByApto_celiacos(true);
+    }
 }

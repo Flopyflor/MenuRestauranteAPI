@@ -45,4 +45,9 @@ public class MenuController {
     public List<Plato> getMenu(){
         return menu.getMenu();
     }
+    
+    @GetMapping("/menu/celiaco")
+    public List<Plato> getMenuCeliaco(){
+        return menu.getMenuCeliaco();
+    }
 }
